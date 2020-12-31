@@ -1,0 +1,7 @@
+package net.acilab.conferencedemo.repositories;
+
+import net.acilab.conferencedemo.models.Speaker;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SpeakerRepository extends JpaRepository<Speaker, Long> {
+}
